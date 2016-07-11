@@ -1,0 +1,23 @@
+@mixin headerColor($color) {
+	color:$color;
+}
+
+@mixin boxformatting {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	overflow: hidden;
+	border: 2px solid blue;
+	-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+}
+
+
+h1 {
+  @include headerColor(#00ff00);
+}
+
+
+
