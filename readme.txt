@@ -3,8 +3,9 @@ To run the code start webserver and goto http://localhost/pplsearch/views
 For test automation, you need to have the following packages installed:
 
 1.node.js (download and install https://nodejs.org/en/download/)
-2.webdriver-manager - npm update webdriver-manager
-3.protactor - npm install  protactor -g
+2.webdriver-manager - npm update webdriver-manager if webdriver manager not already iinstalled,
+install using npm install webdriver-manager -g
+3.protractor - npm install  protactor -g
 
 
 To run test cases:-
